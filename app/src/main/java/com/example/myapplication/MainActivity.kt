@@ -69,7 +69,7 @@ class MainActivity : ComponentActivity() {
                                 modifier = Modifier.padding(16.dp)
                             )
                         }
-                        items(listOf("Battery Health", "Durability", "End of life collection information", "Manufacturing Site", "Carbon Footprint", "Recycling")) { name ->
+                        items(listOf("Battery Health", "Ddurability", "End of life collection information", "Manufacturing Site", "Carbon Footprint", "Recycling")) { name ->
                             ExpandableCard(name = name)
                         }
                     }
